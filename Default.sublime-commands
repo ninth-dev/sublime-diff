@@ -1,0 +1,19 @@
+[
+    {
+        "caption": "SublimeDiff: Diff...",
+        "command": "sublime_diff"
+    },
+    {
+        "caption": "SublimeDiff: Clean",
+        "command": "sublime_diff_clean"
+    },
+    {
+        "caption": "Preferences: SublimeDiff Settings",
+        "command": "edit_settings",
+        "args": {
+            "base_file": "${packages}/SublimeDiff/diff.sublime-settings",
+            "default": "{\n\t$0\n}"
+        }
+    },
+]
+
